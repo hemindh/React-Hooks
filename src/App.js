@@ -9,6 +9,7 @@ import UseEffectAsync from "./Component/UseEffectAsync";
 // import DocTitleOne from "./Hook8CustomeHook/DocTitleOne";
 // import DocTitleTwo from "./Hook8CustomeHook/DocTitleTwo";
 import UserInput from "./Hook8CustomeHook/UserInput";
+import UseIdOne from "./UseId/UseIdOne";
 
 // import UseMemoOne from "./Hook6/UseMemoOne";
 
@@ -108,12 +109,7 @@ function App() {
         {/* <TList /> */}
 
         {/* <Accordion /> */}
-
-        {/* <ClassCounter /> */}
-        {/* <FuncCounterHook /> */}
-        {/* <FuncCounterHookTwo /> */}
-        {/* <FuncCounterThree /> */}
-        {/* <FuncCounterFour /> */}
+        firstId
         {/* <Todo /> */}
 
         {/* <UseEffectOne /> */}
@@ -138,9 +134,7 @@ function App() {
 
 
 
-         {/* <UseReducerOne /> */}
-         {/* <UseReducerTwo /> */}
-         {/* <UseReducerThree /> */}
+         {/* <UseReducerOne /> */}firstId
          {/* <countContext.Provider value={{ countState : count , countDispatch : dispatch }}>
             Count - {count}
                 <ReducerA />
@@ -164,6 +158,7 @@ function App() {
          {/* <UserInput /> */}
 
          <UseEffectAsync />
+         <UseIdOne />
          
       </>
     </div>
