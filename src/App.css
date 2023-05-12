@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Prompt&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.container{
+  width: 100%;
+  height : 100vh ;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(225, 95, 225);
+  font-weight: 800;
+}
+
+
+.main_container{
+  background-image: linear-gradient(to right,red, blue);
+  height: 100vh;
+}
+
+.myInput{
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mybtn{
+padding: 10px;
+background-color: rgb(35, 131, 35);
+border-radius: 7px;
+font-weight: bold;
+}
+
+.header{
+  padding-top: 100px;
+}
+
+.dlt{
+  height: 40px;
+  width: 150px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.res{
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(60, 146, 226);
+    border: 2px solid rgb(13, 14, 13);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.Main_container{
+  background-image: linear-gradient(to right,rgb(136, 31, 31), rgb(29, 29, 32));
+  height: 100vh;
+   width: 100vw;
+}
+
+.header_App{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #282c34;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.para{
+  font-size: 20px;
+  padding-top: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.Input_Add{
+  padding: 10px;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.Button_Add{
+  padding: 10px;
+  width: 100px;
+  font-size: 17px;
+  border-radius: 4px;
+  position: absolute;
+  right: 370px;
+  background-color: green;
+  border: 1px solid white;
+}
+
+.List_added{
+  list-style: none;
+  background-color: rgb(161, 156, 156);
+  padding: 12px;
+  margin: 15px 0px 0px 150px;
+  width: 49%;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.Update_Item{
+  padding: 10px;
+  width: 100px;
+  font-size: 17px;
+  border-radius: 4px;
+  position: absolute;
+  right: 370px;
+  background-color: rgb(73, 73, 248);
+  color: white;
+  border: 1px solid white;
+  margin-top: -12px;
+}
+
+.Delete_Item{
+  padding: 10px;
+  width: 100px;
+  font-size: 17px;
+  border-radius: 4px;
+  position: absolute;
+  right: 260px;
+  background-color: red;
+  border: 1px solid white;
+  margin-top: -12px;
+}
