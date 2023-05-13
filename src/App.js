@@ -1,15 +1,16 @@
 // import { createContext } from "react";
 // import React , {useReducer} from 'react'
 import "./App.css";
-import UseEffectAsync from "./Component/UseEffectAsync";
+// import UseEffectAsync from "./Component/UseEffectAsync";
 
 // import UseCallBack from "./Hook7/UseCallBack";
 // import Count from "./Hook8CustomeHook/Count";
 // import CustomTwo from "./Hook8CustomeHook/CustomTwo";
 // import DocTitleOne from "./Hook8CustomeHook/DocTitleOne";
 // import DocTitleTwo from "./Hook8CustomeHook/DocTitleTwo";
-import UserInput from "./Hook8CustomeHook/UserInput";
-import UseIdOne from "./UseId/UseIdOne";
+// import UserInput from "./Hook8CustomeHook/UserInput";
+// import UseIdOne from "./UseId/UseIdOne";
+import UseTransitionOne from "./UseTransition/UseTransitionOne";
 
 // import UseMemoOne from "./Hook6/UseMemoOne";
 
@@ -157,9 +158,10 @@ function App() {
          {/* <Count /> */}
          {/* <UserInput /> */}
 
-         <UseEffectAsync />
-         <UseIdOne />
+         {/* <UseEffectAsync /> */}
+         {/* <UseIdOne /> */}
          
+         <UseTransitionOne />
       </>
     </div>
   );
