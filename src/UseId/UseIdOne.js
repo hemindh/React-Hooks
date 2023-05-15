@@ -11,8 +11,6 @@ const UseIdOne = () => {
         <p>This is paragraph One - {firstId}</p>
 
         <p>This is paragraph One - {secondId}</p>
-
-
     </>
   )
 }

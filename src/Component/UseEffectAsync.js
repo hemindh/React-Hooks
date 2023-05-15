@@ -27,7 +27,7 @@ const UseEffectAsync = () => {
               color: "white",
             }}
           >
-            <th>Id</th>
+            <th style={{padding : "5px"}}>Id</th>
             <th>Title</th>
             <th>Body</th>
           </thead>

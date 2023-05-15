@@ -1,7 +1,8 @@
 // import { createContext } from "react";
 // import React , {useReducer} from 'react'
 import "./App.css";
-import UseDefOne from "./UseDefferedValue/UseDefOne";
+import Debounce from "./Component/Debounce";
+// import UseDefOne from "./UseDefferedValue/UseDefOne";
 // import UseEffectAsync from "./Component/UseEffectAsync";
 
 // import UseCallBack from "./Hook7/UseCallBack";
@@ -11,7 +12,7 @@ import UseDefOne from "./UseDefferedValue/UseDefOne";
 // import DocTitleTwo from "./Hook8CustomeHook/DocTitleTwo";
 // import UserInput from "./Hook8CustomeHook/UserInput";
 // import UseIdOne from "./UseId/UseIdOne";
-import UseTransitionOne from "./UseTransition/UseTransitionOne";
+// import UseTransitionOne from "./UseTransition/UseTransitionOne";
 
 // import UseMemoOne from "./Hook6/UseMemoOne";
 
@@ -111,7 +112,7 @@ function App() {
         {/* <TList /> */}
 
         {/* <Accordion /> */}
-        firstId
+        
         {/* <Todo /> */}
 
         {/* <UseEffectOne /> */}
@@ -136,7 +137,7 @@ function App() {
 
 
 
-         {/* <UseReducerOne /> */}firstId
+         {/* <UseReducerOne /> */}
          {/* <countContext.Provider value={{ countState : count , countDispatch : dispatch }}>
             Count - {count}
                 <ReducerA />
@@ -163,7 +164,9 @@ function App() {
          {/* <UseIdOne /> */}
          
          {/* <UseTransitionOne /> */}
-         <UseDefOne />
+         {/* <UseDefOne /> */}
+
+         <Debounce />
       </>
     </div>
   );
